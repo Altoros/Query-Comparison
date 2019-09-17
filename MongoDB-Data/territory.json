@@ -1,0 +1,19 @@
+{"id": "ter1", "name": "A-Team", "owner": "usr107", "type": "territory", "parentid": "", "team": [{"userid": "usr6", "role": "Admnin"}]}
+{"id": "ter2", "name": "Ask to Answers", "owner": "usr89", "type": "territory", "parentid": "ter1", "team": [{"userid": "usr53", "role": "Solution Architect"}]}
+{"id": "ter3", "name": "Aggressive Achievers", "owner": "usr159", "type": "territory", "parentid": "ter1", "team": [{"userid": "usr89", "role": "SalesRep"}, {"userid": "usr52", "role": "Admnin"}]}
+{"id": "ter4", "name": "Business as Usual", "owner": "usr159", "type": "territory", "parentid": "ter1", "team": [{"userid": "usr1", "role": "Product Specialist"}, {"userid": "usr64", "role": "Product Specialist"}]}
+{"id": "ter5", "name": "Business Bulldogs", "owner": "usr117", "type": "territory", "parentid": "ter4", "team": [{"userid": "usr80", "role": "SalesRep"}, {"userid": "usr76", "role": "Product Specialist"}]}
+{"id": "ter6", "name": "B2B Bandits", "owner": "usr142", "type": "territory", "parentid": "ter2", "team": [{"userid": "usr53", "role": "Product Specialist"}]}
+{"id": "ter7", "name": "BD Bulldozers", "owner": "usr61", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr125", "role": "Solution Engineer"}]}
+{"id": "ter8", "name": "BD Dominators", "owner": "usr4", "type": "territory", "parentid": "ter2", "team": [{"userid": "usr117", "role": "Admnin"}]}
+{"id": "ter9", "name": "Captains of Commerce", "owner": "usr149", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr108", "role": "Solution Architect"}]}
+{"id": "ter10", "name": "Cold Call Captains", "owner": "usr34", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr28", "role": "Solution Architect"}]}
+{"id": "ter11", "name": "C-Suite Sellers", "owner": "usr102", "type": "territory", "parentid": "ter2", "team": [{"userid": "usr109", "role": "Solution Architect"}, {"userid": "usr18", "role": "Admnin"}]}
+{"id": "ter12", "name": "Commissioners of Cold Calling", "owner": "usr61", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr103", "role": "Admnin"}, {"userid": "usr84", "role": "SalesRep"}]}
+{"id": "ter13", "name": "Dynamite Dealers", "owner": "usr15", "type": "territory", "parentid": "ter2", "team": [{"userid": "usr145", "role": "Solution Architect"}]}
+{"id": "ter14", "name": "Earning Eagles", "owner": "usr108", "type": "territory", "parentid": "ter2", "team": [{"userid": "usr147", "role": "Solution Engineer"}, {"userid": "usr25", "role": "Solution Engineer"}]}
+{"id": "ter15", "name": "Eliminators", "owner": "usr60", "type": "territory", "parentid": "ter4", "team": [{"userid": "usr27", "role": "Solution Architect"}, {"userid": "usr113", "role": "Admnin"}]}
+{"id": "ter16", "name": "Elite Group", "owner": "usr71", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr59", "role": "Admnin"}]}
+{"id": "ter17", "name": "Empty Coffee Cups", "owner": "usr39", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr143", "role": "Product Specialist"}]}
+{"id": "ter18", "name": "Fast Talkers", "owner": "usr29", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr50", "role": "Product Specialist"}]}
+{"id": "ter19", "name": "Fast & Furious", "owner": "usr98", "type": "territory", "parentid": "ter3", "team": [{"userid": "usr120", "role": "SalesRep"}, {"userid": "usr159", "role": "SalesRep"}]}
