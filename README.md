@@ -20,7 +20,13 @@ Repository contains information about setting up databases and import data.
 ### Setting up Couchbase database
 Follow the [Install Couchbase process](https://docs.couchbase.com/server/4.0/getting-started/installing.html) for necessary OS.
 ### Import data for Couchbase
-
+ - Connect to Couchbase Server and create a cluster. Accept all the default settings. 
+ - Create a new `crm` bucket.
+ - Run commands for importing file from `Couchbase-Data` folder:
+   - `./cbimport json -c http://localhost -u Administrator -p <password> -b crm -o ./crm.json -f lines`. For more information: [cbimport](https://docs.couchbase.com/server/current/tools/cbimport.html)
+ - Open Couchbase Admin Console and `Sign in`
+ - Open Query tab (This will put you in the Query workbench).
+ - Copy the content of the `cmrindexes.txt` from `Couchbase-Data` folder into the workbench and run all of them to recreate all the indexes.
 ## Mongo setup
 
 ### Setting up Mongo database

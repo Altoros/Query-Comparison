@@ -1,0 +1,14 @@
+CREATE PRIMARY INDEX `#primary` ON `crm`;
+CREATE INDEX `adv_owner_type` ON `crm`(`owner`) WHERE (`type` = "activity") ;
+CREATE INDEX `crm_account_id_name` ON `crm`(`id`,`name`) WHERE (`type` = "account");
+CREATE INDEX `crm_activity_appt_startDate_accid_dur` ON `crm`(`activityType`,`startDate`,`accid`,`duration`) WHERE (`type` = "activity") ;
+CREATE INDEX `crm_activity_id` ON `crm`(`id`) WHERE (`type` = "activity") ;
+CREATE INDEX `crm_territory_hier_level` ON `crm`(`parent`,`id`) WHERE (`type` = "_territory_hier_level");
+CREATE INDEX `crm_territory_id` ON `crm`(`id`) WHERE (`type` = "territory");
+CREATE INDEX `crm_user_hier_level` ON `crm`(`parent`) WHERE (`type` = "_user_hier_level");
+CREATE INDEX `crm_user_id` ON `crm`(`id`) WHERE (`type` = "user") ;
+CREATE INDEX `def_type` ON `crm`(`type`);
+CREATE INDEX `idx_act_participants` ON `crm`((distinct (array (`p`.`userid`) for `p` in `participants` end))) WHERE (`type` = "activity");
+
+
+
